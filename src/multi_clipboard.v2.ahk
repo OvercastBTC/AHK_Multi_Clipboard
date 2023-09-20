@@ -1,3 +1,4 @@
+#Requires AutoHotkey v2.0
 ;___________________________________________________________________________________________________  
 ; Multi_Clipboard - A Customizable multi-clipboard script for AHKv2  
 ; Created by: GroggyOtter  
@@ -56,8 +57,8 @@ class multi_clipboard {                                                         
     ; USER PROPERTIES
     ; Choose number sets to use
     static use_pad      := 1                                                                        ; Enable/disable numpad keys
-    static use_bar      := 0                                                                        ; Enable/disable number bar keys
-    static use_f        := 0                                                                        ; Enable/disable function keys
+    static use_bar      := 1                                                                        ; Enable/disable number bar keys
+    static use_f        := 1                                                                        ; Enable/disable function keys
     ; Action modifiers
     static copy_hotkey  := '^'                                                                      ; Modifier key to make a key copy
     static paste_hotkey := '!'                                                                      ; Modifier key to make a key paste
